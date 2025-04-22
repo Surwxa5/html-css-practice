@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 90px;
+    padding-right: 24px;
+    background-color: rgb(243, 241, 241);
+}
+
+.video-grid-all{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+column-gap: 10px; 
+row-gap: 30px;
+
+}
+@media(max-width:500px)
+{
+    .video-grid-all{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width:1000px)
+{
+    .video-grid-all{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+p{
+    font-family: arial;
+}
+.youtube-image{
+    width: 100%;
+}
+/* we can use grid insted of inline-block it wont create any 
+space between picture and text */
+.youtube-content{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    vertical-align: top;
+    margin-top: 7px;
+}
+/* we have to make inline block in div */
+.profile-image{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.youtube-title{
+    width: 200px;
+}
+.title{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height:17px;
+}
+.views,.vedio-author{
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: rgb(126, 120, 120);
+}
+/* creating a timer */
+.youtube-image-div{
+    position: relative;
+}
+.timer{
+    color: white;
+    background-color: black;
+    position: absolute;
+bottom: 12px;
+right: 5px;
+font-size: 13px;
+}

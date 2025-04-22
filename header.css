@@ -1,0 +1,116 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    background-color: white;
+    border-bottom: 1px solid rgb(242, 240, 240);
+    /* those element which have a high z-index those 
+    show up in front */
+    z-index:100px;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu{
+margin-left: 9px;
+height: 18px;
+}
+.youtube-logo{
+    margin-left: 15px;
+height: 17px;
+}
+.middle-section{
+
+  display: flex;
+    flex: 1;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 34px;
+}
+.search-bar{
+    height: 22.5px;
+    display: flex;
+    flex: 1;
+    /* flex 1 help us to take whole page */
+ font-size: 17px;
+padding-left:5px;
+border: 1px solid gray;
+box-shadow: inset 1px 2px 3px rgba(0,0,0,0.10);
+/* it has a default width so we have to make it 0 to mimimize */
+width: 0;
+}
+.search-bar::placeholder{
+    font-size: 15px;
+    font-family: arial;
+}
+.btn{
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 22.5px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+}
+.btn3{
+    margin-left: -1px;
+    border: 1px solid gray;
+    position: relative;
+}
+/* this means it will only target the button inside tooltip */
+.btn3 .tooltip{
+    position: absolute;
+    background-color: rgb(208, 206, 206);
+    padding: 2px 4px;
+    bottom: -30px;
+    font-size: 12px;
+    font-family: arial;
+    left: 5px;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.5s ;
+    /* it let the tooltip only appear when its hover in searchbox */
+    pointer-events: none;
+}
+.btn3:hover .tooltip{
+    opacity: 1;
+}
+
+.btn1{
+    border:none;
+    display: flex;
+justify-content: center;
+align-items: center;
+ height:27px ;
+ width: 27px;
+ border-radius:13px;
+ margin-left:7px;
+ background-color: rgb(248, 247, 247);
+}
+.voice-search-btn{
+    height: 18px;
+font-size: 15px;
+}
+.right-section{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.create1,.create2,.create3{
+    height: 20px;
+   margin-left: 15px;
+}
+.create{
+    height: 20px;
+}
+.create3{
+    margin-right: 10px;
+}
