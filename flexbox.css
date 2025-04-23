@@ -1,0 +1,101 @@
+
+.container{
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 5px 5px;
+    border-radius: 12px;
+}
+.flexbox{
+    display: flex;
+   justify-content: space-between;
+   font-size: 15px;
+}
+.notification{
+    font-size: 12px;
+  color: white;
+    border-radius: 12px;
+    background-color: rgb(23, 23, 236);
+    padding: 2px 10px;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+/* for cat design */
+.container1{
+    display: flex;
+   justify-content: space-between;
+   width: 300px;
+ padding: 5px;
+   margin-top: 10px;
+   text-align: center;
+}
+.flexbox1{
+    display: grid;
+    grid-template-columns: 40px 70px;
+   
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+h2,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 18px;
+    margin-top: 3;
+}
+.heading{
+    color: white;
+}
+p{
+    font-size: 12px;
+    color: rgb(70, 68, 68);
+}
+button{
+    background-color:rgb(24, 119, 242); 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+/* search box */
+.search-box{
+    margin-top: 20px;
+   display: flex;
+   background-color: rgb(185, 4, 185);
+   align-items: center;
+   padding: 10px;
+   justify-content: space-between;
+}
+.home{
+    color: white;
+    margin-right: 40px;
+}
+input{
+    padding-right: 100px;
+    border: none; 
+    border-radius: 12px;
+margin-left: 20px;
+}
+.btn1{
+    color: white;
+    border: 1px solid white;
+    padding: 7px 10px; 
+    margin-left: 60px;
+padding: 7px;
+margin-right: 50px;
+font-size: 15px;
+}
+.download{
+margin-left: 60px;
+border: 1px solid white;
+padding: 7px;
+margin-right: 50px;
+font-size: 15px;
+}

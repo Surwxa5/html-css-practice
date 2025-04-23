@@ -1,0 +1,143 @@
+.font{
+    font-family:  Tahoma;
+    font-size: 25px;
+}
+.font1{
+    margin-bottom: 0px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+.pragraph{
+  margin-top: 0px;  
+   color: rgb(214, 15, 15);
+   font-family: Arial;
+   font-style: italic;
+}
+.font2{
+    font-family: Verdana;
+   margin-bottom: 0px;
+   font-size: 25px;
+}
+.pragraph1{
+    margin-top: 0px;
+    color: rgb(103, 99, 99);
+    font-family: Verdana;
+}
+.pragraph2{
+    width: 300px;
+    font-family: Verdana;
+}
+.button{
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.font3{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.pragraph3{
+    font-family: Arial;   
+    text-align: center;
+    margin-top:12px;
+    margin-bottom: 0;
+}
+.font4{
+    font-family: Arial;
+    text-align: center;
+    color: rgb(54, 54, 206);
+    margin-top:12px;
+}
+/* start of difficult */
+.pragraph4{
+    font-family: arial;
+    font-size: 10px;
+    text-align: center;
+    color: red;
+    margin-bottom: 0;
+}
+.font5{
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.font6{
+    font-family: arial;
+    text-align: center;
+margin-top: 0;
+margin-bottom: 0;
+}
+.pragraph5{
+    font-family: arial;
+font-size: 12px;
+text-align: center;
+color: rgb(92, 87, 87);
+margin-top: 8px;
+}
+.btn{
+    font-family: arial;
+   border: none;
+   color: white;
+   padding: 5px 10px;
+   border-radius: 10px;
+   background-color: rgb(137, 137, 233);
+text-align: center;
+
+}
+.font7{
+    font-family: arial;
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 0;
+margin-left: 5px;
+}
+span{
+    font-size: 15px;
+    color: rgb(113, 107, 107);  
+    font-weight: normal;
+}
+.pragraph6{
+    font-family: arial;
+    font-size: 13px;
+    color: green;
+    margin-top: 5px;  
+    margin-bottom: 0;
+}
+.pragraph7{
+    font-family: arial;
+    font-size: 13px;
+    margin-top: 5px;
+    color: rgb(103, 98, 98);
+}
+.one{
+    color: rgb(252, 93, 93);
+    font-size: 12px;
+}
+.font8{
+   font-family: arial;
+   font-size: 18px;
+   margin-bottom: 0;
+   margin-top: 20px;
+} 
+   .two{
+font-size: 12px;
+color: gray;
+   }
+   .pragraph8{
+margin-top: 5px;
+width: 480px;
+   }
+   .three{
+    color: green;
+   }

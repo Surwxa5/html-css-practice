@@ -1,0 +1,109 @@
+.container2{
+    margin-top: 20px;
+    display: flex;
+    height: 50px;
+}
+.one-box{
+    background-color: lightpink;
+    width: 100px;
+}
+.two-box{
+    background-color: lightblue;
+    width: 200px;
+}
+p{
+    margin-top: 0; 
+    margin-bottom: 0; 
+    color: rgb(0, 0, 0);
+    font-weight: 550px;
+font-size: 15px;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h4{
+ margin-top: 0px;
+    font-weight: normal;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+}
+/* complex design */
+.container5{
+font-family: arial;
+box-shadow: 0 0 5px;
+width: 375px;
+padding: 5px 5px;
+margin-top: 20px;
+}
+.header{
+    color: gray;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.body{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+.profile-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+.email-content{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+margin-top: 5px;
+}
+.title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.pragraph{
+    color: gray;
+}
+/* makeing another sites */
+.container6{
+    margin-top: 20px;
+    display: flex;
+}
+.profile-img1{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.email-title{
+    width: 360px;
+}
+
+p{
+    line-height: 22px;
+}
+span{
+    color: rgb(96, 94, 94);
+    font-size: 15px;
+}
+.email-content1{
+display: flex;
+border:1px solid  rgb(200, 200, 200);;
+border-radius: 13px;
+align-items: center;
+overflow: hidden;
+margin-top: 15px;
+width: 300px;
+}
+
+.empty{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(220, 220, 220);
+    margin-right: 10px;
+}

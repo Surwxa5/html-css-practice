@@ -1,0 +1,202 @@
+.u-button{
+    background-color: black;
+    color:white;
+  padding: 9px;
+    border:none;
+    cursor: pointer;
+    transition: opacity 0.10s;
+}
+.u-button:hover{
+  opacity: 0.8 ;
+}
+.u-button:active{
+background-color: red;
+}
+.s-button{
+background-color:rgb(255, 216, 20);
+color:black;
+border:none;
+/* padding: 7px; */
+padding-left: 60px;
+padding-right:60px;
+padding-bottom: 8px;
+padding-top: 8px;
+font-size:16px;
+border-radius: 40px;
+margin-left: 15px;
+cursor: pointer;
+transition: opacity 0.10s;
+}
+.s-button:hover{
+    opacity: 0.7;
+}
+.f-button{
+    background-color: rgb(48, 128, 48);
+    color:white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius:7px;
+    margin-left:12px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0 ,0 ,0, 0.15);
+}
+.f-button:hover{
+    box-shadow: 0 5px 5px rgba(0 ,0 ,0, 0.7);
+}
+.st{
+    background-color: rgb(165, 62, 165);
+    border: none;
+    color: white;
+   padding-left: 34px;
+   padding-right: 34px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+    font-weight: bold;
+    border-radius:8px;
+    cursor:pointer;
+    transition:opacity 0.9s;
+}
+.nd{
+    background-color: white;
+    font-weight: bold;
+    border:1px solid rgb(108,117,125);
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 15px;
+border-radius: 8px;
+cursor: pointer;
+transition:background-color 0.9s;
+}
+.nd:hover{
+    background-color: gray;
+    
+}
+.nd:active{
+    color: red;
+}
+.st:hover{
+    opacity:0.8;
+}
+.link{
+    background-color: rgb(10,102,194);
+    border: none;
+    font-weight: bold;
+  padding: 10px 20px 10px 20px;
+    border-radius:12px;
+    margin-top:15px;
+transition:opacity 0.9s;
+cursor: pointer;
+}
+.link:hover{
+    opacity: 0.8;
+}
+.save{
+background-color: white;
+border:1px solid rgb(10,102,194);
+color:rgb(10,102,194);
+padding: 10px 20px ;
+border-radius: 7px;
+font-weight: bold;
+transition: background-color 0.5s ,color 0.5s;
+}
+.save:hover{
+    background-color:rgb(10,102,194);
+    color:white ;
+}
+.m{
+    color: rgb(128, 223, 128);
+}
+a{
+    transition: color 0.5s;
+}
+a:hover{
+    color:orange;
+}
+.add{
+    padding:8px 40px;
+    background-color: yellow;
+border: none;
+border-radius:12px;
+cursor: pointer;
+transition:background-color 0.9s,color 0.9s;
+}
+.add:hover{
+   background-color: purple;
+   color: white;
+}
+.buy{
+    padding:8px 40px;
+    background-color: orange;
+border: none;
+border-radius:12px;
+cursor: pointer;
+transition:opacity 0.9s;
+}
+.buy:hover{
+    opacity: 0.7;
+}
+/* styling box model */
+.first{
+    margin-top: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+.second{
+    margin-top: 10px;
+    padding: 8px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.one,.two,.three,.four,.fifth,.first,.second{
+    margin-left:10px;
+
+}
+/* for another box */
+.box{
+    background-color: green;
+    color: white;
+    transition: padding 0.15s;
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+.box:hover{
+    padding: 7px 15px;
+}
+.box1{
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    padding: 5px 10px 5px;
+    margin-left: 8px;
+    border: none;
+}
+.box1:hover{
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+.box1:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+.oneb,.oneb,.oneb{
+    cursor: pointer;
+    background-color: green;
+    border: none;
+    color: white;
+    margin: 10px;
+    padding:5px 10px ;
+    font-size: 16px;
+}
+.oneb:hover{
+padding-left:25px; 
+padding-right: 25px;
+margin-left: 0;
+margin-left: 0;
+}

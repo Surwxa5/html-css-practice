@@ -1,0 +1,92 @@
+.whole-img{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+    display: inline-block;
+/* this allow to flex the item */
+}
+.image6{
+    width: 150px;
+    height: 130px;
+    object-fit: cover;
+/* to make the photo according to the height and width */
+}
+.heading2{
+    font-size: 20px;
+    font-family: arial;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.pragraph2{
+    color: rgb(104, 100, 100);
+    margin-right: 0;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.pragraph{
+    display: inline-block;
+    vertical-align: top;
+    /* make the item in the top */
+}
+.profile{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.profile-img{
+    width: 30px;
+    height:30px;
+    border-radius: 25px;
+object-fit: cover;
+
+}
+.btn1{
+    padding: 6px 10px;
+    background-color: rgb(24, 119, 242);
+    border: none;
+    border-radius: 12px;
+    margin-top: 3px;
+    margin-left: 9px;
+    margin-bottom: 10px;
+}
+/* design for next photo */
+.whole-img2{
+margin-left: 10px;
+display: inline-block;
+box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+}
+.cover{
+    width: 150px;
+    height: 126px;
+    object-fit:cover;
+    border: none;
+}
+
+.heading2{
+    font-size: 20px;
+    font-family: arial;
+}
+.profile-img1{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 5px;
+    margin-left: 4px;
+
+}
+.profile1,.mutual{
+    display: inline-block;
+}
+.mutual{
+    vertical-align: top;
+    margin-left: 2px;
+}
+.btn2{
+    padding:6px 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+    background-color:rgb(24, 119, 242);
+    border: none;
+    border-radius: 12px;
+}
+

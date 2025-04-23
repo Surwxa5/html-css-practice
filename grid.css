@@ -1,0 +1,72 @@
+.top-grid{
+display: grid;
+grid-template-columns: 200px 75px;
+}
+
+.grid1{
+    background-color: lightblue;
+
+}  
+.grid2{
+    background-color: lightpink;
+  
+}
+.top-grid1{
+    display: grid;
+    grid-template-columns: 50px;
+    }
+    
+    .grid2{
+        background-color: lightpink;
+    
+    }  
+    .grid3{
+        background-color: lightblue;
+      
+    }
+    /* editing the photos */
+   
+    .whole-img2{
+        margin-left: 10px;
+        display: inline-block;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+        }
+        .cover{
+            width: 150px;
+            height: 126px;
+            object-fit:cover;
+            border: none;
+        }
+        
+        .heading2{
+            font-size: 20px;
+            font-family: arial;
+            margin-top: 0;
+            margin-bottom: 3px;
+        }
+        .edit-grid{
+            display: grid;
+            grid-template-columns: 35px 1fr;
+            margin-top: 0px;
+        }
+        .profile-img1{
+            width: 30px;
+            height: 30px;
+            border-radius: 20px;
+            object-fit: cover;
+         
+            margin-left: 4px;
+      vertical-align: middle;
+        }
+        .mutual{
+            color: gray;
+            
+            vertical-align: middle;
+        }
+        .btn2{
+            padding:6px 12px;
+          margin-bottom: 10px;
+            background-color:rgb(24, 119, 242);
+            border: none;
+            border-radius: 12px;
+        }

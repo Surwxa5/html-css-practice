@@ -1,0 +1,97 @@
+.div1{
+    font-weight: normal;
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    color: white;
+    padding-left: 6px;
+    border-radius: 11px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  font-size: 11px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.div2{
+    background-color: gray;
+    position: fixed;
+    height: 180px;
+    width: 320px;
+  bottom: 20px;
+  right: 20px;
+}
+.div3{
+    font-weight: normal;
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    color: white;
+  font-size: 9px;
+  position: absolute;
+  top: -5px;
+left: -5px;
+ border-radius: 25px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.timesnap{
+  color: white;
+  background-color: black;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  font-size: 13px;
+  padding: 3px;
+}
+/* designing the clothings */
+.back{
+  height: 250px;
+  width: 300px;
+  background-color: gray;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+img{
+ height: 150px;
+ width: 150px;
+ position: absolute;
+top: 50px;
+right: 50px;
+}
+.discount{
+  color: white;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  top: 7px;
+}
+/* same but using overlay */
+.container{
+  margin-top:80px;
+  position: relative
+  ;
+  display: inline-block;
+  background-color: gray;
+  height: 300px;
+  width: 300px;
+  left: 50px;
+}
+/* for extra design */
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  background-color: white;
+  border: 1px solid black;
+}
